@@ -1,7 +1,8 @@
 #welcome-section{
 
-  background :url(./assets/backgrounds/h_img.jpg) center center;
-  background: cover;
-  height : 100vh;
+  background :url(./assets/backgrounds/h_img.jpg) center;
+  background-size: cover;
+  height : 75vh;
+  color:white;
 
 }
