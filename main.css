@@ -1,3 +1,9 @@
+body{
+
+  font-family:'Merriweather', serif;
+
+}
+
 section{
 
   height:100vh
@@ -7,19 +13,13 @@ section{
 
   background :url(./assets/backgrounds/h_img.jpg) center center;
   background-size: cover;
-  height : 100vh;
   color:white;
 
 }
 
-#aboutUs-section{
-
-
-
-}
 
 #services{
 
-  background:url(./assets/backgrounds/s_image.jpg) center center ;
-
+  background:url(./assets/backgrounds/s_image.jpg)  ;
+  background-size:cover;
 }
