@@ -1,8 +1,13 @@
+section{
+
+  height:100vh
+}
+
 #welcome-section{
 
   background :url(./assets/backgrounds/h_img.jpg) center;
   background-size: cover;
-  height : 75vh;
+  height : 100vh;
   color:white;
 
 }
