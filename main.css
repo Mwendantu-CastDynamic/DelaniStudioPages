@@ -5,9 +5,21 @@ section{
 
 #welcome-section{
 
-  background :url(./assets/backgrounds/h_img.jpg) center;
+  background :url(./assets/backgrounds/h_img.jpg) center center;
   background-size: cover;
   height : 100vh;
   color:white;
+
+}
+
+#aboutUs-section{
+
+
+
+}
+
+#services{
+
+  background:url(./assets/backgrounds/s_image.jpg) center center ;
 
 }
