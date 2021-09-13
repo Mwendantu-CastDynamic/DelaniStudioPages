@@ -24,8 +24,20 @@ section{
   background-size:cover;
 }
 
-#work8giraffe{
+#portfolio-subsection img{
 
+width:100%;
 
+  
+}
 
+#what-we-do .descriptions{
+
+display:none;
+
+} 
+
+.what-we-do-icon{
+
+  cursor: pointer;
 }
