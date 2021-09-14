@@ -1,5 +1,34 @@
+function bounce(){
+  $('#mouse-click')
+  .animate({
+        marginTop : "-35px",
+        position :"absolute"                                                 
+
+  }, 500)
+  .animate({
+
+    marginTop:"0",
+    position: "absolute"
+
+    }, { 
+        duration:500,
+        complete: bounce
+    
+    });
 
 
+}
+
+function scrollToAboutUsSection(){
+
+  let position = $("#aboutUs-section").position();
+  $('html,body').animate({
+        scrollTop:position.top+'px'
+
+  },500);
+
+
+}
 
 function pulsate(element1, elementDescription2 ){
 
@@ -13,10 +42,11 @@ function pulsate(element1, elementDescription2 ){
 }
 
 $(document).ready(function(){
-alert("Document is ready");
+   bounce();
+   $('#mouse-click-icon').click(scrollToAboutUsSection);
     
   $('.what-we-do-icon').click(function(evt){
-      const clickedElement = $(evt.target).hasClass('what-we-do-icon')? $(clickedElement) : $(clickedElement).parent();
+      let clickedElement = $(evt.target).hasClass('what-we-do-icon')? $(clickedElement) : $(clickedElement).parent();
       pulsate(clickedElement, $(clickedElement).prev());
 
   });
