@@ -32,9 +32,14 @@ function scrollToAboutUsSection(){
 
 function pulsate(element1, elementDescription2 ){
 
-  $(element1 || this).animate({opacity:0},300, function(){
+  $(element1 || elementDescription2)
+  .animate({opacity:0},300px, function(){
       $(element1).hide();
-      $(elementDescription2).show().animate({opacity:1},300);
+      $(elementDescription2).show()
+      
+      .animate({opacity:1},300);
+      $(element1).show();
+      $(elementDescription2).hide();
       
 
   });
