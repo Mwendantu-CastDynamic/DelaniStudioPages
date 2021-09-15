@@ -54,7 +54,7 @@ background: url(./assets/backgrounds/c_image.jpg);
 #contact-us-section form input{
 
  opacity:0;
- border-block-color: white;
+ border-color: white;
    
   }
 
@@ -63,4 +63,47 @@ background: url(./assets/backgrounds/c_image.jpg);
  opacity:0;
  border-color: white;
          
+  }
+
+  .work1{
+    background-image: url(./assets/portfolio/1work4.jpg);
+  }
+
+  .work2{
+    background-image: url(./assets/portfolio/2work3.jpg);
+
+  }
+  .work3{
+    background-image: url(./assets/portfolio/3work2.jpg);
+  }
+  
+  .work4{
+    background-image: url(./assets/portfolio/4work1.jpg);
+
+  }
+
+  .work5{
+    background-image: url(./assets/portfolio/5work5.jpg);
+
+  }
+
+  .work6{
+    background-image: url(./assets/portfolio/6work6.jpg);
+
+  }
+
+  .work7{
+    background-image: url(./assets/portfolio/7work7);
+
+  }
+
+  .work8{
+    background-image: url(./assets/portfolio/8work8.jpg);
+
+  }
+
+  .workDescription{
+    /* display: none; */
+    /*background-color: rgba(255, 255, 255, .5);*/
+    height: 100%;
   }
