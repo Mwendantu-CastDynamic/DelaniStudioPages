@@ -32,16 +32,10 @@ function scrollToAboutUsSection(){
 
 function pulsate(element1, elementDescription2 ){
 
-  $(element1 || elementDescription2)
-  .animate({opacity:0},300px, function(){
+  $(element1)
+  .animate({opacity:0},300, function(){
       $(element1).hide();
-      $(elementDescription2).show()
-      
-      .animate({opacity:1},300);
-      $(element1).show();
-      $(elementDescription2).hide();
-      
-
+      $(elementDescription2).show().animate({opacity:1},300);
   });
 
 }
@@ -51,9 +45,21 @@ $(document).ready(function(){
    $('#mouse-click-icon').click(scrollToAboutUsSection);
     
   $('.what-we-do-icon').click(function(evt){
-      let clickedElement = $(evt.target).hasClass('what-we-do-icon')? $(clickedElement) : $(clickedElement).parent();
+      let clickedElement = $(evt.target).hasClass('what-we-do-icon')? $(evt.target) : $(evt.target).parent();
       pulsate(clickedElement, $(clickedElement).prev());
 
+  });
+
+  $('.description').mouseout(function(evt){
+      pulsate(this,$(this).next());
+  });
+
+  $('.work').mouseover(function(){
+      $(this).find('.wordDescription').removeClass('d-none')
+      .addClass('d-flex');
+  }).mouseout(function(){
+      $(this).find('.wordDescription').removeClass('d-flex')
+      .addClass('d-none');
   });
 
 });
