@@ -11,7 +11,7 @@ section{
 
 
 section #contact-us-section{
-  min-height:80vh !important;
+  min-height:100vh ;
 }
 
 #welcome-section{
@@ -70,8 +70,7 @@ background-size: cover;
 
  opacity:0;
  border:2px solid white;
- width: 80%;
- height:20%;
+ height:auto;
 
    
   }
@@ -81,7 +80,7 @@ background-size: cover;
  opacity:0;
  border-color: white;
  width: 80%;
- height:20%;        
+ height:auto;        
   }
 
   .work1{
