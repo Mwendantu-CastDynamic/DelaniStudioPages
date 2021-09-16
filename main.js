@@ -54,12 +54,4 @@ $(document).ready(function(){
       pulsate(this,$(this).next());
   });
 
-  $('.work').mouseover(function(){
-      $(this).find('.workDescription').removeClass('d-none')
-      .addClass('d-flex');
-  }).mouseout(function(){
-      $(this).find('.workDescription').removeClass('d-flex')
-      .addClass('d-none');
-  });
-
 });

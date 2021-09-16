@@ -85,45 +85,4 @@ background-size: cover;
  align-self: center;       
   }
 
-  .work1{
-    background-image: url(./assets/portfolio/1work4.jpg);
-  }
-
-  .work2{
-    background-image: url(./assets/portfolio/2work3.jpg);
-
-  }
-  .work3{
-    background-image: url(./assets/portfolio/3work2.jpg);
-  }
   
-  .work4{
-    background-image: url(./assets/portfolio/4work1.jpg);
-
-  }
-
-  .work5{
-    background-image: url(./assets/portfolio/5work5.jpg);
-
-  }
-
-  .work6{
-    background-image: url(./assets/portfolio/6work6.jpg);
-
-  }
-
-  .work7{
-    background-image: url(./assets/portfolio/7work7);
-
-  }
-
-  .work8{
-    background-image: url(./assets/portfolio/8work8.jpg);
-
-  }
-
-  .workDescription{
-    background-color: rgba(255, 255, 255, .5); 
-    opacity:30%;
-    height: 100%;
-  }
