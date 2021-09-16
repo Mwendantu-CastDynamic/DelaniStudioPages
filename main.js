@@ -55,10 +55,10 @@ $(document).ready(function(){
   });
 
   $('.work').mouseover(function(){
-      $(this).find('.wordDescription').removeClass('d-none')
+      $(this).find('.workDescription').removeClass('d-none')
       .addClass('d-flex');
   }).mouseout(function(){
-      $(this).find('.wordDescription').removeClass('d-flex')
+      $(this).find('.workDescription').removeClass('d-flex')
       .addClass('d-none');
   });
 

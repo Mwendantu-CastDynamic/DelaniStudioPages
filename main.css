@@ -11,7 +11,7 @@ section{
 
 
 section #contact-us-section{
-  min-height:100vh ;
+  min-height: 100vh;
 }
 
 #welcome-section{
@@ -32,6 +32,7 @@ section #contact-us-section{
 #portfolio-subsection img{
 
 width:100%;
+display: show
 
   
 }
@@ -58,19 +59,19 @@ background-size: cover;
 
 }
 
-#contact-us-section form {
-
+#contact-us-form {
 
   border:2px solid white;
   width: 80%;
   height:auto;
 }
 
-#contact-us-section form input{
+#contact-us-form input{
 
  opacity:0;
  border:2px solid white;
  height:auto;
+ align-self: center;
 
    
   }
@@ -78,9 +79,10 @@ background-size: cover;
 #contact-us-section form textarea{
 
  opacity:0;
- border-color: white;
+ border:2px solid white;
  width: 80%;
- height:auto;        
+ height:auto; 
+ align-self: center;       
   }
 
   .work1{
@@ -121,7 +123,7 @@ background-size: cover;
   }
 
   .workDescription{
-    /* display: none; */
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .5); 
+    opacity:30%;
     height: 100%;
   }
