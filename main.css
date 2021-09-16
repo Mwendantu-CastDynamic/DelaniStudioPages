@@ -64,11 +64,14 @@ background-size: cover;
   border:2px solid white;
   width: 80%;
   height:auto;
+ margin-left: 120px;
+ margin-top: 180px;
+
 }
 
 #contact-us-form input{
 
- opacity:0;
+ opacity:30%;
  border:2px solid white;
  height:auto;
  align-self: center;
@@ -77,12 +80,15 @@ background-size: cover;
   }
 
 #contact-us-section form textarea{
-
- opacity:0;
+ 
+ opacity:30%;
  border:2px solid white;
- width: 80%;
  height:auto; 
  align-self: center;       
   }
 
-  
+  #contact-header {
+
+    margin-top: 160px;
+
+  } 
